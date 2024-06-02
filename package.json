@@ -1,0 +1,31 @@
+{
+  "name": "cadastroUsuarioBackend",
+  "version": "1.0.0",
+  "description": "Study for registering users",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosdorian/cadastroUsuarioBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosdorian/cadastroUsuarioBackend/issues"
+  },
+  "homepage": "https://github.com/marcosdorian/cadastroUsuarioBackend#readme",
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "prisma": "^5.14.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.14.0",
+    "fastify": "^4.27.0",
+    "tsx": "^4.11.0"
+  }
+}
